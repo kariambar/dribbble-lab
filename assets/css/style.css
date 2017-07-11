@@ -1,7 +1,12 @@
 /* Acá van tus estilos */
 
 .sidebar-section {
-	background: grey;
+	background: rgb(244, 244, 244);
+}
+
+a, a:hover {
+	text-decoration: none;
+	color: grey;
 }
 
 .work {
@@ -17,3 +22,39 @@
 .cont-img, .work, .cont-icons {
 	display: inline-block;
 }
+
+.cont-img {
+	position: relative;
+}
+
+.text {
+	display: none;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	transition: .5s ease;
+	background-color: transparent;
+	z-index:5;
+}
+
+.cont-img:hover .overlay {
+	background-color: rgba(250,250,250,.9);
+}
+
+.cont-img:hover .overlay .text {
+	display: block;
+	color: black;
+	font-size: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
