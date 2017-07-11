@@ -1,125 +1,18 @@
 /* Acá van tus estilos */
 
-body{
-	background-color: #F4F4F4;
-}
-*{
-	margin: 0;
-	padding: 0;
-}
-/**NAVBAR**/
-#bs-example-navbar-collapse-1{
-	background-color: #333333;
-}
-.navbar-header{
-	background-color: #333333;
-}
-.navbar-nav{
-	margin-top: 5px;
-}
-img{
-	margin-left: 20px;
-	margin-top: 5px;
-}
-.navbar-form{
-	margin-top: 10px;
-	margin-right: 20px;
-}
-.navbar-default .navbar-nav>li>a:hover{
-	color:whitesmoke;
-}
-.left-inner-addon input {
-    padding-left: 30px;
-}
-.left-inner-addon i {
-    position: absolute;
-    padding: 10px 12px;
-    pointer-events: none;
-}
-.right-inner-addon {
-    position: relative;
-}
-.right-inner-addon input {
-    padding-right: 30px;
-}
-.right-inner-addon i {
-    position: absolute;
-    right: 0px;
-    padding: 10px 12px;
-    pointer-events: none;
-}
-/**FIN NAVBAR**/
-/*ESTILOS HEADER*/
-.centro{
-	padding: 15px;
-	background-color: whitesmoke;
-}
-.centro a{
-	padding: 10px;
-	color: black;
-	font-weight: bold;
+.sidebar-section {
+	background: grey;
 }
 
-.gris{
-	color: grey;
-	font-weight: normal;
+.work {
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	padding: 1%;
+	margin: 1%;
+	background: white;
 }
-.derecho{
-	padding-right: 70px;
-}
-/*FIN ESTILOS HEADER*/
 
-/**SIDEBAR SECTION**/
-.sidebar{
-	background-color: white;
+.cont-img, .work, .cont-icons {
+	display: inline-block;
 }
-.photo-profile{
-	margin-top: 25px;
-	width: 35%;
-}
-.sidebar h2{
-	margin-bottom: 0px;
-}
-.sidebar h5{
-	margin-bottom: 20px;
-}
-.sidebar button{
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-}
-.sib-hire-me{
-	background-color: #7bbb5d;
-	color: white;
-	font-weight: 700;
-}
-.sib-nut, .text-left{
-	color: #8A8A8A;
-}
-.sidebar ul{
-	padding: 0px;
-}
-.sidebar a{
-	text-decoration: none;
-	color: black;
-	padding: 5px;
-	border: 1px solid #B9B9B9;
-	border-radius: 5px;
-}
-.sidebar a:hover{
-	color: #3B79F8;
-}
-.sidebar p:hover{
-	color: #3B79F8;
-}
-.sidebar p{
-	text-align: left;
-}
-.sidebar p i:hover{
-	color: black;
-}
-.sidebar p i{
-	color: #8A8A8A;
-	margin-right: 9px;
-}
-/**FIN SIDEBAR**/
