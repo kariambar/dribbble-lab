@@ -1,12 +1,18 @@
 /* Acá van tus estilos */
 
-body{
-	background-color: #F4F4F4;
-}
 *{
 	margin: 0;
 	padding: 0;
 }
+
+body{
+	background-color: #F4F4F4;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
 /**NAVBAR**/
 #bs-example-navbar-collapse-1{
 	background-color: #333333;
@@ -17,10 +23,7 @@ body{
 .navbar-nav{
 	margin-top: 5px;
 }
-img{
-	margin-left: 20px;
-	margin-top: 5px;
-}
+
 .navbar-form{
 	margin-top: 10px;
 	margin-right: 20px;
@@ -123,3 +126,12 @@ img{
 	margin-right: 9px;
 }
 /**FIN SIDEBAR**/
+
+
+/**Footer**/
+
+.footer{
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+}
