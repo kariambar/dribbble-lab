@@ -43,3 +43,23 @@ img{
     padding: 10px 12px;
     pointer-events: none;
 }
+
+/*ESTILOS HEADER*/
+.centro{
+	padding: 15px;
+	background-color: whitesmoke;
+}
+.centro a{
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.gris{
+	color: grey;
+	font-weight: normal;
+}
+.derecho{
+	padding-right: 70px;
+}
+/*FIN ESTILOS HEADER*/
