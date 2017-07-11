@@ -23,10 +23,11 @@ $(document).ready(function(){
 			var vistas = element.views_count;
 			var likes = element.likes_count;
 			var comentarios = element.comments_count;
+			var linkPage = element.html_url;
 
 			//container-works es la clase donde se anidará todo
 
-			$(".container-works").append('<div class="work" id="work' + data.indexOf(element).toString() + '"><div class="cont-img" id="cont-img' + data.indexOf(element).toString() + '"><img src="' + imgTeaser + '" class="img-responsive"></img></div><div class="cont-icons" id="cont-icons' + data.indexOf(element).toString() + '"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><span>' + vistas + '</span><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><span>' + likes + '</span><i class="fa fa-comment" aria-hidden="true"></i><span>' + comentarios + '</span></div></div>');
+			$(".container-works").append('<a href="' + linkPage + '" target="_blank" class="work" id="work' + data.indexOf(element).toString() + '"><div class="cont-img" id="cont-img' + data.indexOf(element).toString() + '"><img src="' + imgTeaser + '" class="img-responsive"></img></div><div class="cont-icons" id="cont-icons' + data.indexOf(element).toString() + '"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><span>' + vistas + '</span><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><span>' + likes + '</span><i class="fa fa-comment" aria-hidden="true"></i><span>' + comentarios + '</span></div></a>');
 
 			/*$(".container-works").append('<img src="' + element.images.teaser + '"></img>');
 			$(".container-works").append("vistas: " + element.views_count + "\n");
@@ -37,5 +38,4 @@ $(document).ready(function(){
 
 
 });
-
 

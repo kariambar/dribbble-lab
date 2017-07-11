@@ -11,6 +11,7 @@
 	padding: 1%;
 	margin: 1%;
 	background: white;
+	cursor: pointer;
 }
 
 .cont-img, .work, .cont-icons {
