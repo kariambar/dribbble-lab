@@ -1,7 +1,74 @@
 /* Acá van tus estilos */
+
 body{
 	background-color: #F4F4F4;
 }
+*{
+	margin: 0;
+	padding: 0;
+}
+/**NAVBAR**/
+#bs-example-navbar-collapse-1{
+	background-color: #333333;
+}
+.navbar-header{
+	background-color: #333333;
+}
+.navbar-nav{
+	margin-top: 5px;
+}
+img{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.navbar-form{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:whitesmoke;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+/**FIN NAVBAR**/
+/*ESTILOS HEADER*/
+.centro{
+	padding: 15px;
+	background-color: whitesmoke;
+}
+.centro a{
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+.gris{
+	color: grey;
+	font-weight: normal;
+}
+.derecho{
+	padding-right: 70px;
+}
+/*FIN ESTILOS HEADER*/
+
 /**SIDEBAR SECTION**/
 .sidebar{
 	background-color: white;
@@ -55,3 +122,4 @@ body{
 	color: #8A8A8A;
 	margin-right: 9px;
 }
+/**FIN SIDEBAR**/
