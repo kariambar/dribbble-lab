@@ -1,1 +1,57 @@
 /* Acá van tus estilos */
+body{
+	background-color: #F4F4F4;
+}
+/**SIDEBAR SECTION**/
+.sidebar{
+	background-color: white;
+}
+.photo-profile{
+	margin-top: 25px;
+	width: 35%;
+}
+.sidebar h2{
+	margin-bottom: 0px;
+}
+.sidebar h5{
+	margin-bottom: 20px;
+}
+.sidebar button{
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+.sib-hire-me{
+	background-color: #7bbb5d;
+	color: white;
+	font-weight: 700;
+}
+.sib-nut, .text-left{
+	color: #8A8A8A;
+}
+.sidebar ul{
+	padding: 0px;
+}
+.sidebar a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	border: 1px solid #B9B9B9;
+	border-radius: 5px;
+}
+.sidebar a:hover{
+	color: #3B79F8;
+}
+.sidebar p:hover{
+	color: #3B79F8;
+}
+.sidebar p{
+	text-align: left;
+}
+.sidebar p i:hover{
+	color: black;
+}
+.sidebar p i{
+	color: #8A8A8A;
+	margin-right: 9px;
+}
