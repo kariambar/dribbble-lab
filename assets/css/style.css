@@ -27,6 +27,12 @@ a, a:hover {
 	position: relative;
 }
 
+.cont-icons {
+	width: 100%;
+	padding-top: 7%;
+	text-align: right;
+}
+
 .text {
 	display: none;
 }
@@ -38,9 +44,10 @@ a, a:hover {
 	left: 0;
 	right: 0;
 	height: 100%;
+	width: 100%;
 	transition: .5s ease;
 	background-color: transparent;
-	z-index:5;
+	/*z-index:5;*/
 }
 
 .cont-img:hover .overlay {
@@ -48,13 +55,15 @@ a, a:hover {
 }
 
 .cont-img:hover .overlay .text {
+	height: 95%;
+	width: 95%;
 	display: block;
 	color: black;
 	font-size: 10px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	top: 5%;
+	left: 5%;
+	/*transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);*/
 }
 
