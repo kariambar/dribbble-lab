@@ -134,7 +134,7 @@ body{
 /**Footer**/
 
 footer{
-	height: 60vh;
+	height: 50vh;
 	width: 100%;
 	background-color: white;
 	padding-top: 5rem;
@@ -152,9 +152,9 @@ footer{
 .iconofooter{
 	width: 20%;
 }
-
-.flexone{
-	display: inline-block;
+.volu{
+	margin-left: 5rem;
+	font-size: 11px;
 }
 
 .aboutul{
@@ -175,12 +175,13 @@ footer{
 	display: flex;
 }
 
-.flow{
+.volu{
 
+display: block;
 }
 
 .socialfooter {
-	margin-top: 5rem;
+	
 	display: inline-block;
 	font-size: 25px;
 }
@@ -190,11 +191,18 @@ footer{
 }
 
 .logfoot{
-	padding-top: 4rem;
+	
 }
 
 .lastfooter{
 	font-size: 20px;
 	font-weight: 900;
 	color: black;
+}
+
+.flexcero{
+	display: inline-block;
+}
+.we{
+	margin-top: 2rem;
 }

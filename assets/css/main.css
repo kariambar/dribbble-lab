@@ -1,0 +1,13 @@
+@media (max-width: 850px) and (min-width: 1px){
+
+footer{
+	height: 150vh;
+}
+
+.logo{
+	width: 20%;
+}
+.iconofooter{
+	width: 5%;
+}
+}	
