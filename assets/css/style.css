@@ -134,10 +134,10 @@ body{
 /**Footer**/
 
 footer{
-	height: 80vh;
+	height: 60vh;
 	width: 100%;
 	background-color: white;
-	padding-top: 10rem;
+	padding-top: 5rem;
 	color: #8A8A8A;
 }
 
@@ -172,15 +172,29 @@ footer{
 }
 
 .flextwo{
-	display: inline-block;
+	display: flex;
 }
 
 .flow{
-	width: 50%;
+
 }
 
 .socialfooter {
 	margin-top: 5rem;
 	display: inline-block;
 	font-size: 25px;
+}
+
+.flexthree{
+	display: inline-block;
+}
+
+.logfoot{
+	padding-top: 4rem;
+}
+
+.lastfooter{
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
 }
