@@ -130,8 +130,35 @@ body{
 
 /**Footer**/
 
-.footer{
-	height: 100vh;
+
+/**Footer**/
+
+footer{
+	height: 80vh;
 	width: 100%;
 	background-color: white;
+	padding-top: 10rem;
+	color: #8A8A8A;
+}
+
+.logo{
+	width: 50%;
+}
+
+.about{
+	display: block;
+}
+
+.iconofooter{
+	width: 20%;
+}
+
+.flexone{
+	display: inline-block;
+}
+
+.aboutul{
+	text-decoration: none;
+	list-style: none;
+	color: #8A8A8A; 
 }
