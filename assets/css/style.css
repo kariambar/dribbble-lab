@@ -4,7 +4,7 @@
 	background: rgb(244, 244, 244);
 }
 
-a, a:hover {
+.my.work, .my.work:hover {
 	text-decoration: none;
 	color: grey;
 }
