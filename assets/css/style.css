@@ -1,7 +1,70 @@
 /* Acá van tus estilos */
 
+
 .sidebar-section {
 	background: rgb(244, 244, 244);
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #F4F4F4;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+/**NAVBAR**/
+#bs-example-navbar-collapse-1{
+	background-color: #333333;
+}
+.navbar-header{
+	background-color: #333333;
+}
+.navbar-nav{
+	margin-top: 5px;
+}
+
+.navbar-form{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:whitesmoke;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+/**FIN NAVBAR**/
+/*ESTILOS HEADER*/
+.centro{
+	padding: 15px;
+	background-color: whitesmoke;
+}
+.centro a{
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+
 }
 
 .my.work, .my.work:hover {
@@ -65,5 +128,91 @@
 	left: 5%;
 	/*transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);*/
+}
+
+.sidebar p i{
+	color: #8A8A8A;
+	margin-right: 9px;
+}
+/**FIN SIDEBAR**/
+
+
+/**Footer**/
+
+
+/**Footer**/
+
+footer{
+	height: 50vh;
+	width: 100%;
+	background-color: white;
+	padding-top: 5rem;
+	color: #8A8A8A;
+}
+
+.logo{
+	width: 50%;
+}
+
+.about{
+	display: block;
+}
+
+.iconofooter{
+	width: 20%;
+}
+.volu{
+	margin-left: 5rem;
+	font-size: 11px;
+}
+
+.aboutul{
+	text-decoration: none;
+	list-style: none;
+	color: #8A8A8A; 
+}
+
+.aboutul li a{
+	color: #8A8A8A;
+	text-decoration: none; 
+}
+.aboutul li a:hover{
+	color: black;
+}
+
+.flextwo{
+	display: flex;
+}
+
+.volu{
+
+display: block;
+}
+
+.socialfooter {
+	
+	display: inline-block;
+	font-size: 25px;
+}
+
+.flexthree{
+	display: inline-block;
+}
+
+.logfoot{
+	
+}
+
+.lastfooter{
+	font-size: 20px;
+	font-weight: 900;
+	color: black;
+}
+
+.flexcero{
+	display: inline-block;
+}
+.we{
+	margin-top: 2rem;
 }
 

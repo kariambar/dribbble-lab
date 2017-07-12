@@ -2,21 +2,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>dribbble</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <title>Dribbble</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/a4b8726cee.js"></script>
+	  <link rel="stylesheet" href="assets/css/style.css">
+	  <link rel="stylesheet" href="assets/css/main.css">
+	  <link rel="shortcut icon" type="image/x-icon" href="assets/dribbble/favicon.ico">
 </head>
 <body>
-	<!-- contenido de APIS -->
+	<!--NAVBAR-->
+  <nav class="navbar navbar-default navbar-static-top">
+		<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+					<img alt="dribbble" src="assets/dribbble/logo-nav.png">
+			</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Shots</a></li>
+					<li><a href="#">Designers</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Podcast</a></li>
+					<li><a href="#">Meetups</a></li>
+					<li><a href="#">Jobs</a></li>
+				</ul>
+				<form class="navbar-form navbar-right">
+					<div class="right-inner-addon">
+						<i class="icon-search fa fa-search"></i><input type="search" class="form-control" placeholder="Search"/>
+					</div>
+				</form>
+			</div>
+	</nav>
+<!--HEADER-->
+<header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center centro">
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+			<a href="">Shots <span class="gris">31</span></a>
+			<a href="">Followers <span class="gris">9,619</span></a>
+			<a href="" class="dropdown">More <span class="caret gris"></span></a>
+			<!-- Small button group -->
+			</div>
+				  <ul class="nav navbar-nav navbar-right derecho">
+			      <li>
+			      <div class="btn-group">
+			      <button class="btn btn-default btn-sm dropdown-toggle gris" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Recents Shots <span class="caret"></span>
+				  </button>
+				  </div>
+				  </li>
+			      </ul>
+			</div>
+		</div>
+	</div>
+</header>
+<!--FIN HEADER-->
+<!-- SIDEBAR -->
 	<section class="sidebar-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-3">
-					<!-- falta -->
+				<div class="col-md-3 col-xs-12 text-center sidebar">
+					<img src="assets/img/dog.jpg" alt="dog" class="img-circle photo-profile">
+					<h2>Name</h2>
+					<h4>País</h4>
+					<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+					<button type="text" class="sib-hire-me"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Hire me</button>
+					<button type="text">Follow</button>
+					<button class="sib-nut"><span class="glyphicon glyphicon-cog" aria-hidden="true"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></button>
+					<hr>
+					<h4 class="text-left">SKILLS</h4>
+					<ul class="text-left">
+						<a href="#">web</a>
+						<a href="#">ui</a>
+						<a href="#">ux</a>
+						<a href="#">mobile</a>
+						<a href="#">app</a>
+					</ul>
+					<hr>
+					<h4 class="text-left">ELSEWHERE</h4>
+					<p><i class="fa fa-twitter fa-2x" aria-hidden="true"></i> Twitter</p>
+					<p> <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>Facebook</p>
+					<p><i class="fa fa-instagram fa-2x" aria-hidden="true"></i> Instagram</p>
+					<p><i class="fa fa-github fa-2x" aria-hidden="true"></i> GitHub</p>
+					<p><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> LinkedIn</p>
+					<p><i class="fa fa-vimeo-square fa-2x" aria-hidden="true"></i> Vimeo</p>
+
+
 				</div>
-				<div class="col-md-9 col-sm-12">
+        <div class="col-md-9 col-sm-12">
 					<div class="row">
 						<div class="col-md-12 col-sm-12 container-works">
 							<!-- contenido dinámico de la API -->
@@ -26,9 +109,86 @@
 			</div>
 		</div>
 	</section>
+<!-- FIN SIDEBAR -->
+<!-- footer -->
+<footer>
+    <div class="container-fluid">
+       	<div class="row">
+          		<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12">
+                	<img src="assets/img/logo-footer-hd.png" class="logo">
+                    <p class="subtitulo"> Show and tell for designers</p>
+                    <p class="subtitulo-2">What are you working on? Dribbble is a community of designers sharing screenshots of their work, process, and projects.</p>
+            	</div>
+            	<div class="about  col-lg-1 col-md-1 col-sm-2 col-xs-4 text-center">
+	            	<ul class="aboutul">
+	            		<li><a href="#">Abaut</a></li>
+	            		<li><a href="#">Help</a></li>
+	            		<li><a href="#">Contact</a></li>
+	            		<li><a href="#">Terms</a></li>
+	            	</ul>
+            	</div>
+            	<div class="about col-lg-1 col-md-1 col-sm-2 col-xs-4">  
+	                <ul class="aboutul">
+	            		<li><a href="#">Privacy</a></li>
+	            		<li><a href="#">Guidelines</a></li>
+	            		<li><a href="#">Shop</a></li>
+	            		<li><a href="#">Testimonials</a></li>
+	            	</ul>        
+            	</div>
+            	<div class="about col-lg-1 col-md-1 col-sm-2 col-xs-4">
+            		<ul class="aboutul">
+	            		<li><a href="#">Brans</a></li>
+	            		<li><a href="#">Advertise</a></li>
+	            		<li><a href="#">API</a></li>
+	            		<li><a href="#">Integrations</a></li>
+	            	</ul>            
+            	</div>
+        		<div class="designerone col-lg-2 col-md-2 col-sm-2 col-xs-12">
+	        		<h4>Jobs for Designers</h4>
+	        		<div class="imgene"> 
+	        			<a href="#"><img src="assets/img/icono2.png" class="flexcero iconofooter"></a>
+		        			<p class="flexcero">Volusion</p>
+		        			<p class="volu">Senior Mobile UI Designer</p>
+	        			</div>
+	        			<div class="imgene">
+	        			<a href="#"><img src="assets/img/images.png" class="f lexcero iconofooter"></a>
+			                <p class="flexcero">Creative Market </p>
+			                <p class="volu">Product Designer</p>
+		                </div>   
+        		</div> 
+            	<div class="flextwo overtime col-lg-3 col-md-3 col-sm-2 col-xs-12">
+            		<div class="flextwo"> 
+                		<a href="#"><img src="assets/img/flow.png"></a>
+                	</div>
+                	<div class="flextwo"> 
+                    	<p> Simple project<br> management for design<br> teams. Starr your free<br> trial <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                    </div>
+                </div>                      
+        </div>     
+        <div class="row">
+            <div class="iconos col-lg-9  col-md-9 col-sm-12 col-xs-12">
+	                <i class="socialfooter fa fa-instagram" aria-hidden="true"></i>
+	                <i class="socialfooter fa fa-twitter-square" aria-hidden="true"></i>
+	                <i class="socialfooter fa fa-facebook-square" aria-hidden="true"></i>
+	                <i class="socialfooter fa fa-globe" aria-hidden="true"></i>
+	                <i class="socialfooter fa fa-life-ring" aria-hidden="true"></i>
+                <p class="we">We're Tiny along with Designer News, Crew, MetaLab, Flow, Pixel Union, We Work Remotely and more. © 2017 Dribbble. All rights reserved. </p>
+                </div> 
+                 <!-- PARTE FINAL DEL FOOTER -->
+                <div class="logfoot col-lg-3 col-md-3 col-sm-3 col-xs-12">
+	                <div class="flexthree imgagenlogo">
+	                    <img src="assets/img/dribbbled.png" class="flexthree logofinal">
+	                </div>
+	                <div class="flexthree last">   
+	                    <p class="lastfooter">778,798,209,007 </p>
+	                    <p>pixels dribbbled</p>
+	                 </div>    
+                </div>
+        </div>
+    </div>
+</footer>
 
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
