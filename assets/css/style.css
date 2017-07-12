@@ -162,3 +162,25 @@ footer{
 	list-style: none;
 	color: #8A8A8A; 
 }
+
+.aboutul li a{
+	color: #8A8A8A;
+	text-decoration: none; 
+}
+.aboutul li a:hover{
+	color: black;
+}
+
+.flextwo{
+	display: inline-block;
+}
+
+.flow{
+	width: 50%;
+}
+
+.socialfooter {
+	margin-top: 5rem;
+	display: inline-block;
+	font-size: 25px;
+}
